@@ -1,34 +1,19 @@
-// Welcome message
-alert("👋 Welcome to the JavaScript Trivia Bot!");
+console.log("Hello! I'm your coding fun fact guide!");
 
-let score = 0; // Initialize score
+let botName = "teacher";
+let botLocation = "the universe";
+let favoriteLanguage = "computer science";
 
-// Question 1
-let answer1 = prompt("Q1: What does HTML stand for?");
-if (answer1 && answer1.toLowerCase() === "hypertext markup language") {
-  alert("✅ Correct!");
-  score++;
-} else {
-  alert("❌ Oops! The correct answer is 'HyperText Markup Language'.");
-}
+console.log("My name is " + botName + " and I live on " + botLocation + ".");
+console.log("My favorite programming language is " + favoriteLanguage + ".");
 
-// Question 2
-let answer2 = prompt("Q2: Which symbol is used for comments in JavaScript?");
-if (answer2 && (answer2 === "//" || answer2.toLowerCase() === "double forward slash")) {
-  alert("✅ Correct!");
-  score++;
-} else {
-  alert("❌ The correct answer is // (double forward slash).");
-}
+let codingFact = "One favorite fun fact about " + favoriteLanguage + " is that it can run on both the browser and server.";
+console.log(codingFact);
 
-// Question 3
-let answer3 = prompt("Q3: What keyword is used to declare a variable in JavaScript?");
-if (answer3 && (answer3.toLowerCase() === "let" || answer3.toLowerCase() === "var" || answer3.toLowerCase() === "const")) {
-  alert("✅ Correct! You picked one of the valid keywords.");
-  score++;
-} else {
-  alert("❌ The correct answers could be: let, var, or const.");
-}
+codingFact = "New fact about " + favoriteLanguage + ": it has multiple options.";
+console.log(codingFact);
 
-// Final Score
-alert("🎉 You scored " + score + " out of 3. Thanks for playing!");
+codingFact = "Another new fact about " + favoriteLanguage + ": it was differentiated into types for multiple purposes in different fields.";
+console.log(codingFact);
+
+console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".");
