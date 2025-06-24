@@ -1,34 +1,39 @@
-// Welcome message
-alert("👋 Welcome to the JavaScript Trivia Bot!");
+# 🤖 JavaScript Fun Fact Bot – Lab Project 02
 
-let score = 0; // Initialize score
+## 📘 Description
+This project is a beginner-level JavaScript program that introduces a bot which shares fun facts about its favorite programming language using `console.log()`. It was built as part of my FreeCodeCamp lab practice.
 
-// Question 1
-let answer1 = prompt("Q1: What does HTML stand for?");
-if (answer1 && answer1.toLowerCase() === "hypertext markup language") {
-  alert("✅ Correct!");
-  score++;
-} else {
-  alert("❌ Oops! The correct answer is 'HyperText Markup Language'.");
-}
+The bot introduces itself, shares its name and location, and then prints three fun facts using string concatenation and variables.
 
-// Question 2
-let answer2 = prompt("Q2: Which symbol is used for comments in JavaScript?");
-if (answer2 && (answer2 === "//" || answer2.toLowerCase() === "double forward slash")) {
-  alert("✅ Correct!");
-  score++;
-} else {
-  alert("❌ The correct answer is // (double forward slash).");
-}
+## 🧠 Concepts Covered
+- Declaring variables using `let`
+- String concatenation with `+` operator
+- Using `console.log()` to display output
+- Reassigning variable values
+- Working with multiple strings in JavaScript
 
-// Question 3
-let answer3 = prompt("Q3: What keyword is used to declare a variable in JavaScript?");
-if (answer3 && (answer3.toLowerCase() === "let" || answer3.toLowerCase() === "var" || answer3.toLowerCase() === "const")) {
-  alert("✅ Correct! You picked one of the valid keywords.");
-  score++;
-} else {
-  alert("❌ The correct answers could be: let, var, or const.");
-}
+## 🛠 Technologies Used
+- JavaScript (vanilla)
+- HTML (to host the JS script)
+- Console (browser DevTools)
 
-// Final Score
-alert("🎉 You scored " + score + " out of 3. Thanks for playing!");
+## 🚀 How to Run the Project
+1. Download or clone the repository.
+2. Open the `index.html` file in any modern browser.
+3. Open the **Developer Console**:
+   - Chrome: Right-click → Inspect → Console tab
+   - Firefox: Ctrl+Shift+K
+   - Edge: F12 → Console
+4. You’ll see the bot’s greeting, intro, and all fun facts printed in the console.
+
+## 📚 What I Learned
+- How to create a bot-style message flow using console output
+- The importance of clean syntax and spacing in strings
+- Basic JavaScript debugging using the console
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+👩‍💻 Created with ❤️ by Deepika Narra;
